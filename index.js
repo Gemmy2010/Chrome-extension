@@ -1,59 +1,5 @@
 
 
-// let hands = ["rock", "paper","Scissor"]
-
-
-// function getHands(){
-// let randonIndex =    Math.floor(Math.random() * 3)
-// return hands[randonIndex]
-// }
-//  console.log(getHands())
-
-
-//  let fruit = ["apple","orange","apple","orange","orange","apple"]
-
-//  let appleShelf = document.getElementById("apple-el")
-//  let orangeShelf = document.getElementById("orange-el")
-
-
-//  function sortFruits(){
-//      for(let i = 0; i < fruit.length; i++){
-         
-//          if(fruit[i] === "apple"){
-            
-//              appleShelf.textContent += "apple"
-           
-
-//          } else{
-//              orangeShelf.textContent += "orange"
-             
-//          }
-//      }
-//  }
-// sortFruits()
-
-// let openBox = document.getElementById("box")
-
-// openBox.addEventListener("click", function(){
-
-//     openBox.textContent="open the box"
-// })
-
-
-
-
-
-// myLeads = JSON.parse(myLeads)
-
-// myLeads.push("www.goal.com")
-
-// myLeads = JSON.stringify(myLeads)
-// console.log(typeof myLeads)
-
-
-
-
-
 
 
 let myLeads = []
