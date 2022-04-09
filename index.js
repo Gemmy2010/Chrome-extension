@@ -1,7 +1,3 @@
-
-
-
-
 let myLeads = []
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
@@ -49,24 +45,3 @@ inputBtn.addEventListener("click", function() {
     localStorage.setItem("myLeads", JSON.stringify(myLeads) )
     render(myLeads)
 })
-
-
-localStorage.setItem("myname" , "www.google.com")
-localStorage.clear()
-let mynames =localStorage.getItem("myname")
-
-const scoreBtn = document.getElementById("score_btn")
-
-scoreBtn.addEventListener(click, function(){
-    console.log(data[0].score)
-})
-
-function generateSentences(desc, arr){
-    for(let i = 0; i<arr.length; arr++){
-        arr[i]
-    }
-    return (desc, arr)
-}
-
-let mySentence =generateSentences("largest countries","Chna,India, USA")
-console.log(``)
